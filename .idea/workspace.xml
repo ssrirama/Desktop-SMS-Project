@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b366f6e7-df0b-43e9-bb14-7a3eb404847f" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Tyler\PycharmProjects\Desktop-SMS-Project\.idea\5o.iml" afterPath="$PROJECT_DIR$/.idea/Desktop-SMS-Project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/guiPyQt4.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="5o.iws" />
@@ -28,11 +26,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gui.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="gui.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gui.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="14" selection-start="561" selection-end="561" vertical-scroll-proportion="0.9206963" vertical-offset="0" max-vertical-offset="850">
-              <folding />
+            <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+              <folding>
+                <marker date="1398108822362" expanded="true" signature="583:645" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="guiPyQt4.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guiPyQt4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.24248497" vertical-offset="32" max-vertical-offset="782">
+              <folding>
+                <element signature="e#21#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,7 +77,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5o" />
+        <entry key="$PROJECT_DIR$" value="tyler_working_copy" />
       </map>
     </option>
   </component>
@@ -74,14 +85,30 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/guiPyQt4.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1521" />
-    <option name="height" value="916" />
+    <option name="x" value="753" />
+    <option name="width" value="752" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -133,9 +160,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../guiPractice" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -145,7 +172,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.gui">
+  <component name="RunManager" selected="Python.guiPyQt4">
     <configuration default="false" name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,6 +186,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="5o" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="guiPyQt4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Desktop-SMS-Project" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guiPyQt4.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -285,12 +330,14 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Python.gui" />
+      <item index="1" class="java.lang.String" itemvalue="Python.guiPyQt4" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.gui" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.guiPyQt4" />
+        <item index="1" class="java.lang.String" itemvalue="Python.gui" />
       </list>
     </recent_temporary>
   </component>
@@ -322,24 +369,28 @@
       <created>1398093636568</created>
       <updated>1398093636568</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed project name to Reflect Current Project">
+      <created>1398101825718</created>
+      <updated>1398101825718</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1521" height="916" extended-state="6" />
+    <frame x="753" y="0" width="752" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880098" sideWeight="0.49966776" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.49966776" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32912987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.114950165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23505434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.50033224" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3226205" sideWeight="0.49900332" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.49966776" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3215637" sideWeight="0.49900332" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33543506" sideWeight="0.49966776" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -362,7 +413,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Got Input Boxes working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Got Input Boxes working" />
+    <MESSAGE value="Changed project name to Reflect Current Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed project name to Reflect Current Project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -371,14 +423,18 @@
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="10" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="391">
-          <folding />
+          <folding>
+            <marker date="1398108822362" expanded="true" signature="583:645" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="22" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
-          <folding />
+          <folding>
+            <marker date="1398108822362" expanded="true" signature="583:645" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,11 +454,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gui.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="14" selection-start="561" selection-end="561" vertical-scroll-proportion="0.9206963" vertical-offset="0" max-vertical-offset="850">
-          <folding />
+        <state line="2" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <folding>
+            <marker date="1398108822362" expanded="true" signature="583:645" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guiPyQt4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.24248497" vertical-offset="32" max-vertical-offset="782">
+          <folding>
+            <element signature="e#21#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 
